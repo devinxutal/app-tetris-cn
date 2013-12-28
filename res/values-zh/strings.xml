@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="common_ok">确定</string>
+	<string name="common_cancel">取消</string>
+	<string name="common_yes">是</string>
+	<string name="common_no">否</string>
+	<string name="common_reset">重置</string>
+	<string name="common_save">保存</string>
+	<string name="common_load">载入</string>
+	<string name="common_next">继续</string>
+	<string name="common_back">返回</string>
+	<string name="common_finish">完成</string>
+	<string name="common_submit">提交</string>
+	<string name="common_cong">恭喜你</string>
+	<string name="common_steps">步数</string>
+	<string name="common_time">时间</string>
+	<string name="common_more">更多</string>
+	<string name="common_replay">再玩一次</string>
+	<string name="common_about">关于</string>
+	<string name="common_paused">已暂停</string>
+	<string name="common_resume">继续游戏</string>
+	<string name="common_quit_game">退出游戏</string>
+	<string name="common_back_game">回到游戏</string>
+	<string name="common_feedback">发送反馈</string>
+	<string name="common_rate_me">评价游戏</string>
+	<string name="common_more_games">更多游戏</string>
+	<string name="common_tell_friends">分享给好友</string>
+	<string name="common_options">游戏设置</string>
+	<string name="common_score">得分</string>
+	<string name="common_game_over">游戏结束</string>
+	<string name="common_help">帮助</string>
+
+	<string name="common_high_score">排行榜</string>
+	
+	<string name="game_init_continue">继续保存的游戏</string>
+	<string name="game_init_new">开始新游戏</string>
+
+
+	<string name="main_btn_play_game">开始游戏</string>
+	<string name="main_btn_about">关于</string>
+	<string name="main_btn_more">更多游戏</string>
+	<string name="main_btn_preference">游戏设置</string>
+	<string name="main_btn_world_rank">排行榜</string>
+
+	<string name="app_name">决战俄罗斯</string>
+
+	<string name="menu_presentation">Presentation</string>
+	<string name="menu_preferences">选项</string>
+	<string name="menu_help">帮助</string>
+
+	<string name="record_submit_input_name_title">请输入你的文件</string>
+	<string name="record_submit_submitting_record">正在提交,请稍等...</string>
+	<string name="success_screen_retrieving_data">正在读取数据...</string>
+
+	<string name="prompt_title_succeed">恭喜你</string>
+	<string name="prompt_title_failed">干得好</string>
+
+	<string name="success_screen_submit_score">提交成绩</string>
+	<string name="success_screen_world_rank">全球排名</string>
+
+	<string name="help_info">帮助信息</string>
+	<string name="help">帮助</string>
+	
+	<string name="help_info_title">帮助信息</string>
+
+</resources>

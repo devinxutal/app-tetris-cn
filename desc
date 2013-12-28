@@ -1,0 +1,30 @@
+Description
+
+经典的俄罗斯方块游戏！
+
+完美模拟经典
+完美的操控体验
+酷炫的游戏界面
+游戏过程中无广告，玩起来更爽！
+
+1.支持横屏（双手）和竖屏（单手）
+2.支持手势和拖拽，操作起来更方便
+3.支持虚拟按钮和键盘，操作多一种选择
+4.支持方块换肤
+5.更多的游戏选项和配置
+
+大家快来体验吧！
+
+
+Recent changes:
+
+v 1.2.0
+	- Integration with Heyzap
+	- Fix crash on start problem
+	- Fix some pause screen problem
+	
+v 1.1.2
+	- Option to turn block shadow on and off.
+	- Auto save & continue prompt at next play
+	- Fix memory leak bug
+	

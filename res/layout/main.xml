@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:src="@drawable/main_bg"
+		android:layout_gravity="center_horizontal" android:scaleType="centerCrop" />
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="center_horizontal|center_vertical">
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="0dip"
+			android:layout_weight="0.65" android:paddingTop="30dip">
+			<ImageView android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:src="@drawable/go_tetris_logo"
+				android:layout_gravity="center_horizontal" android:scaleType="fitCenter"/>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="0dip"
+			android:layout_weight="1.35" android:gravity="center_horizontal|center_vertical">
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="0dip" android:layout_height="fill_parent"
+				android:layout_weight="0.2"></LinearLayout>
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="0dip" android:layout_height="fill_parent"
+				android:gravity="center_horizontal"
+				android:layout_weight="1" android:padding="10dip">
+				<Button android:id="@+id/main_btn_play_game"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:text="@string/main_btn_play_game" />
+				<Button android:id="@+id/main_btn_preference"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:text="@string/main_btn_preference" />
+				<Button android:id="@+id/main_btn_rank" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="@string/common_high_score" />
+				<Button android:id="@+id/main_btn_help" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="@string/common_help" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="0dip" android:layout_height="fill_parent"
+				android:layout_weight="0.2"></LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_height="fill_parent"
+		android:gravity="bottom|center_horizontal">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="bottom|right">
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="bottom|right"
+				android:padding="0px">
+				<!-- 
+				<com.heyzap.sdk.HeyzapButton android:id="@+id/hzbutton"
+					android:src="@drawable/heyzap_button" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_margin="0dp"
+					android:padding="5dip" />
+					 -->
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:id="@+id/ad_area" android:gravity="bottom|center_horizontal">
+		</LinearLayout>
+	</LinearLayout>
+
+</FrameLayout>

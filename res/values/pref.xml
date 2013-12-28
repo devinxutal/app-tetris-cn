@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="pref_cat_basic">Basic Settings</string>
+	<string name="pref_cat_performance">Performance</string>
+	<string name="pref_cat_appearence">Appearence</string>
+	<string name="pref_cat_portrait_control">Control in Portrait Mode</string>
+	<string name="pref_cat_landscape_control">Control in Landscape Mode</string>
+	<string name="pref_cat_control">Control Settings</string>
+
+
+	<string name="preferences_title">Preferences</string>
+
+	<string name="pref_ent_control">Control</string>
+	<string name="pref_ent_control_summary">Select the way to control the craft</string>
+	<string-array name="pref_ent_control_entries">
+		<item>Virtual Joy Stick</item>
+		<item>Gravity Sensor</item>
+	</string-array>
+	<string-array name="pref_ent_control_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+
+	<string name="pref_ent_language">Language</string>
+	<string name="pref_ent_language_summary">Select language of game</string>
+	<string-array name="pref_ent_language_entries">
+		<item>English</item>
+		<item>简体中文</item>
+	</string-array>
+	<string-array name="pref_ent_language_values">
+		<item>en</item>
+		<item>zh</item>
+	</string-array>
+	
+	<string name="pref_ent_difficulty">Start Level</string>
+	<string name="pref_ent_difficulty_summary">Select level to start at</string>
+	<string-array name="pref_ent_difficulty_entries">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+	</string-array>
+	<string-array name="pref_ent_difficulty_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+	</string-array>
+
+	<string name="pref_ent_joystick_position">Joy Stick Position</string>
+	<string name="pref_ent_joystick_position_summary">Select position of virtual joy stick</string>
+	<string-array name="pref_ent_joystick_position_entries">
+		<item>Left</item>
+		<item>Right</item>
+	</string-array>
+	<string-array name="pref_ent_joystick_position_values">
+		<item>2</item>
+		<item>1</item>
+	</string-array>
+
+
+	<string name="pref_ent_background_music">Background Music</string>
+	<string name="pref_ent_background_music_summary">
+	</string>
+
+	<string name="pref_ent_sound_effects">Sound Effects</string>
+	<string name="pref_ent_sound_effects_summary">
+	</string>
+	
+	<string name="pref_ent_block_shadow">Block Shadow</string>
+	<string name="pref_ent_block_shadow_summary">Show a shadow of current block where it will drop. 
+	</string>
+	
+	<string name="pref_ent_swap_rotate_hold">Swap HOLD and ROTATE</string>
+	<string name="pref_ent_swap_rotate_hold_summary">Swap HOLD and ROTATE buttons
+	</string>
+
+	<string name="pref_ent_swap_quick_direct">Swap QUICK and DIRECT</string>
+	<string name="pref_ent_swap_quick_direct_summary">Swap Quick Down and Direct Down buttons
+	</string>
+	
+	<string name="pref_ent_enable_drag_mode">Enable Drag Mode</string>
+	<string name="pref_ent_enable_drag_mode_summary">In Drag Mode, block will move left/right multiple slots following your finger flip, not just one slot
+	</string>
+	
+	<string name="pref_ent_screen_orientation">Screen Orientation</string>
+	<string name="pref_ent_screen_orientation_summary">Set screen orientation while playing</string>
+	<string-array name="pref_ent_screen_orientation_entries">
+		<item>Auto</item>
+		<item>Portrait</item>
+		<item>Landscape</item>
+	</string-array>
+	<string-array name="pref_ent_screen_orientation_values">
+		<item>auto</item>
+		<item>portrait</item>
+		<item>landscape</item>
+	</string-array>
+
+	<string name="pref_ent_block_style">Block Style</string>
+	<string name="pref_ent_block_style_summary">Select the style of blocks</string>
+	<string-array name="pref_ent_block_style_entries">
+		<item>Classic</item>
+		<item>Crystal</item>
+	</string-array>
+	<string-array name="pref_ent_block_style_values">
+		<item>classic</item>
+		<item>crystal</item>
+	</string-array>
+
+	<string name="pref_ent_center_button_action">Central Button Action</string>
+	<string name="pref_ent_center_button_action_summary">Select action of the central button</string>
+	<string-array name="pref_ent_center_button_action_entries">
+		<item>Direct Down</item>
+		<item>Quick Down</item>
+		<item>Rotate Block</item>
+	</string-array>
+	<string-array name="pref_ent_center_button_action_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+</resources>

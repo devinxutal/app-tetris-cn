@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.devinxutal.tetriscn"
+    android:versionCode="126"
+    android:versionName="1.2.6" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+<supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/CustomButton"
+        android:name="GoTetrisApplication" >
+		<activity android:name="com.devinxutal.tetris.activities.SplashActivity"
+			android:label="@string/app_name" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+            android:name="com.devinxutal.tetris.activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.devinxutal.tetris.activities.PlaygroundActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.devinxutal.tetris.activities.Preferences"
+            android:label="@string/preferences_title" >
+        </activity>
+        <activity
+            android:name="com.devinxutal.tetris.activities.AboutActivity"
+            android:label="@string/common_about"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.devinxutal.tetris.activities.LeaderBoardActivity"
+            android:label="@string/common_about" >
+        </activity>
+
+        <!-- The application's publisher ID assigned by AdMob -->
+        <meta-data
+            android:name="ADMOB_PUBLISHER_ID"
+            android:value="a14d70b38c4cc74" />
+        <!-- AdActivity definition -->
+
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity
+            
+            android:name="net.youmi.android.YoumiActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.scoreloop.client.android.core.ui.ProxyActivity"
+            android:configChanges="orientation" />
+
+        <service
+            android:name="net.youmi.android.YoumiService"
+            android:exported="false" >
+        </service>
+
+        <receiver android:name="net.youmi.android.YoumiReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="ADMOB_ALLOW_LOCATION_FOR_ADS"
+            android:value="true" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="4ee47505527015264800000f" >
+        </meta-data>
+    </application>
+
+</manifest>

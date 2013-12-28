@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/pref_cat_basic">
+		<CheckBoxPreference android:title="@string/pref_ent_background_music"
+			android:summary="@string/pref_ent_background_music_summary"
+			android:key="background_music" android:defaultValue="true" />
+		<CheckBoxPreference android:title="@string/pref_ent_sound_effects"
+			android:summary="@string/pref_ent_sound_effects_summary" android:key="sound_effects"
+			android:defaultValue="true" />
+		<CheckBoxPreference android:title="@string/pref_ent_block_shadow"
+			android:summary="@string/pref_ent_block_shadow_summary" android:key="block_shadow"
+			android:defaultValue="true" />
+		<ListPreference android:title="@string/pref_ent_language"
+			android:summary="@string/pref_ent_language_summary" android:key="language"
+			android:defaultValue="zh" android:entries="@array/pref_ent_language_entries"
+			android:entryValues="@array/pref_ent_language_values" />
+		<ListPreference android:title="@string/pref_ent_difficulty"
+			android:summary="@string/pref_ent_difficulty_summary" android:key="difficulty"
+			android:defaultValue="1" android:entries="@array/pref_ent_difficulty_entries"
+			android:entryValues="@array/pref_ent_difficulty_values" />
+		<ListPreference android:title="@string/pref_ent_screen_orientation"
+			android:summary="@string/pref_ent_screen_orientation_summary"
+			android:key="screen_orientation" android:defaultValue="auto"
+			android:entries="@array/pref_ent_screen_orientation_entries"
+			android:entryValues="@array/pref_ent_screen_orientation_values" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_cat_appearence">
+		<ListPreference android:title="@string/pref_ent_block_style"
+			android:summary="@string/pref_ent_block_style_summary" android:key="block_style"
+			android:defaultValue="classic" android:entries="@array/pref_ent_block_style_entries"
+			android:entryValues="@array/pref_ent_block_style_values" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_cat_control">
+		<CheckBoxPreference android:title="@string/pref_ent_enable_drag_mode"
+			android:summary="@string/pref_ent_enable_drag_mode_summary"
+			android:key="enable_drag_mode" android:defaultValue="true" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_cat_landscape_control">
+		<CheckBoxPreference android:title="@string/pref_ent_swap_rotate_hold"
+			android:summary="@string/pref_ent_swap_rotate_hold_summary"
+			android:key="swap_rotate_hold" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/pref_ent_swap_quick_direct"
+			android:summary="@string/pref_ent_swap_quick_direct_summary"
+			android:key="swap_quick_direct" android:defaultValue="false" />
+		<!--
+			<com.devinxutal.tetris.ui.CustomPreference android:key="flip_angle"
+			android:title="Flip Angle" android:summary="Customize the slide
+			angle" android:defaultValue="0.6" />
+		-->
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_cat_portrait_control">
+		<ListPreference android:title="@string/pref_ent_center_button_action"
+			android:summary="@string/pref_ent_center_button_action_summary"
+			android:key="center_button_action" android:defaultValue="2"
+			android:entries="@array/pref_ent_center_button_action_entries"
+			android:entryValues="@array/pref_ent_center_button_action_values" />
+	</PreferenceCategory>
+</PreferenceScreen>

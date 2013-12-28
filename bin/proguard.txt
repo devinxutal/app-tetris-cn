@@ -1,0 +1,36 @@
+# view AndroidManifest.xml #generated:57
+-keep class com.devinxutal.tetris.activities.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.devinxutal.tetris.activities.LeaderBoardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.devinxutal.tetris.activities.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.devinxutal.tetris.activities.PlaygroundActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.devinxutal.tetris.activities.Preferences { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.devinxutal.tetris.activities.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.devinxutal.tetriscn.GoTetrisApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.google.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.scoreloop.client.android.core.ui.ProxyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class net.youmi.android.YoumiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class net.youmi.android.YoumiReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class net.youmi.android.YoumiService { <init>(...); }
+

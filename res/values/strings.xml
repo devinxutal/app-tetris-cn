@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="common_ok">OK</string>
+	<string name="common_cancel">Cancel</string>
+	<string name="common_yes">Yes</string>
+	<string name="common_no">No</string>
+	<string name="common_reset">Reset</string>
+	<string name="common_save">Save</string>
+	<string name="common_load">Load</string>
+	<string name="common_next">Next</string>
+	<string name="common_back">Back</string>
+	<string name="common_finish">Finish</string>
+	<string name="common_submit">Submit</string>
+	<string name="common_cong">Congratulations</string>
+	<string name="common_steps">STEP</string>
+	<string name="common_time">TIME</string>
+	<string name="common_more">More</string>
+	<string name="common_replay">Play Again</string>
+	<string name="common_about">About</string>
+	<string name="common_paused">Paused</string>
+	<string name="common_resume">Resume</string>
+	<string name="common_quit_game">Quit Game</string>
+	<string name="common_back_game">Back to Game</string>
+	<string name="common_feedback">Give us feedback</string>
+	<string name="common_rate_me">Rate me</string>
+	<string name="common_more_games">More Games</string>
+	<string name="common_tell_friends">Tell Friends</string>
+	<string name="common_options">Options</string>
+	<string name="common_score">SCORE</string>
+	<string name="common_game_over">GAME OVER</string>
+	<string name="common_help">Help</string>
+
+	<string name="common_high_score">High Scores</string>
+
+	<string name="game_init_continue">Continue</string>
+	<string name="game_init_new">New Game</string>
+
+	<string name="rank_a_recruit">Recruit</string>
+	<string name="rank_b_private">Private</string>
+	<string name="rank_c_corporal">Corporal</string>
+	<string name="rank_d_sergeant">Sergeant</string>
+	<string name="rank_e_lieutenant">Lieutenant</string>
+	<string name="rank_f_captain">Captain</string>
+	<string name="rank_g_major">Major</string>
+	<string name="rank_h_commander">Commander</string>
+	<string name="rank_i_lt_colonel">Lt. Colonel</string>
+	<string name="rank_j_colonel">Colonel</string>
+	<string name="rank_k_general">General</string>
+	<string name="rank_l_field_marshal">Field Marshal</string>
+
+	<string name="main_btn_play_game">Play Game</string>
+	<string name="main_btn_about">About</string>
+	<string name="main_btn_more">More</string>
+	<string name="main_btn_preference">Options</string>
+	<string name="main_btn_world_rank">High Scores</string>
+
+	<string name="app_name">决战俄罗斯</string>
+
+	<string name="menu_presentation">Presentation</string>
+	<string name="menu_preferences">Preferences</string>
+	<string name="menu_help">Help</string>
+
+	<string name="record_submit_input_name_title">Enter your name</string>
+	<string name="record_submit_submitting_record">Submitting, please wait...</string>
+	<string name="success_screen_retrieving_data">Retrieving data...</string>
+	<string name="record_submit_global">Also submit to global leaderboard</string>
+	
+	<string name="prompt_title_succeed">CONGRATULATIONS</string>
+	<string name="prompt_title_failed">WELL DONE</string>
+	<string name="prompt_succeed">You\'ve successfully get through 20 seconds!
+	</string>
+	<string name="prompt_faied">It\'s a pity that you didn\'t make it, but it\'s
+		still a remarkable record.</string>
+
+	<string name="success_screen_submit_score">Submit Score</string>
+	<string name="success_screen_world_rank">World Rank</string>
+
+	<string name="help_info">Help Information</string>
+	<string name="help">Help</string>
+	<string name="help_take_photo">Take a photo of your cube.</string>
+
+	<string name="help_locate_cube">Move the white joy sticks to perfectly fit the
+		cube.
+	</string>
+	<string name="help_comfirm_color">Confirm the recognized cube, if any piece gets a
+		wrong color, just tap it and re-assign a correct color.
+	</string>
+
+	<string name="cube_solve_problem_title">No solution</string>
+	<string name="cube_solve_problem_desc">The cube solution is only available for 3x3 cube
+		now, solutions for other cubes will come out soon.</string>
+
+	<string name="cube_capture_problem_title">Cube capturing problem</string>
+	<string name="cube_capture_problem_content">The cube state is invalid. Please be sure that
+		every piece of the cube is assigned with the right color.</string>
+	<string name="cube_capture">Cube Capturing</string>
+	<string name="cube_capture_step1_sign">STEP 1</string>
+	<string name="cube_capture_step2_sign">STEP 2</string>
+	<string name="cube_capture_step3_sign">FINISH</string>
+	<string name="cube_capture_step1_desc">Take a photo of your cube, and identify the colors
+		of the UP, FRONT, RIGHT side. Just like the cube showed below</string>
+	<string name="cube_capture_step2_desc">Take a photo of the other three sides: make the
+		three other faces visible by turning your cube upside down, then press
+		"Go!" button.
+	</string>
+	<string name="cube_capture_step3_desc">You have finish capturing the cube, now press the
+		Solve button to view the solution now!
+	</string>
+	<string name="toast_shuffleing_cube">Shuffling cube</string>
+	<string name="toast_steps">steps</string>
+
+	<string name="cube_not_support_title">Cube Not Supported</string>
+	<string name="cube_not_support_content">Cube solution is currently supported only for 3x3
+		cube</string>
+
+	<string name="help_info_title">Help Information</string>
+
+
+	<string name="version_title">Pro Edition Required</string>
+	<string name="version_desc">This function is only provided in Pro edition, and
+		this is a LITE version.
+	</string>
+
+	<string name="version_get_pro">Get Pro</string>
+	<string name="version_trials_1">You have </string>
+	<string name="version_trials_2">trials left.</string>
+	<string name="version_continue_hint">Do you want to continue?</string>
+
+	<string name="record_rank">Rank</string>
+	<string name="record_player">Player</string>
+	<string name="record_time">Time</string>
+	<string name="record_steps">Moves</string>
+	<string name="record_cube_size">Size</string>
+	<string name="record_military_rank">Military Rank</string>
+
+	<!-- Unlicensed dialog messages -->
+	<string name="unlicensed_dialog_title">Application not licensed</string>
+	<string name="unlicensed_dialog_body">It seems that you are using an unlisenced
+		distribution of Fancy Cube Pro. Please purchase
+		it from Android Market.
+	</string>
+	<string name="buy_button">Buy now</string>
+	<string name="quit_button">Exit</string>
+
+
+	<string name="progress_solving_cube">Solving cube, please wait...</string>
+	<string name="progress_validating_cube">Validating and solving the cube, please wait...
+	</string>
+	<string name="about_fancy_cube">About Fancy Cube</string>
+	<string name="about_info">
+		See if you can continue playing for 20 seconds.\n\n
+		\n\n
+
+		[Developer information]\n\n
+		Yinfei Xu \n
+		devinxutal@gmail.com \n
+		http://twitter.com/devinxutal \n
+	</string>
+
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal">
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:padding="5dip" android:layout_height="wrap_content"
+			android:gravity="left" android:orientation="vertical">
+			<LinearLayout android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:gravity="center"
+				android:orientation="vertical">
+				<TextView android:textStyle="bold" android:padding="5dip"
+					android:textColor="#FFFFEE99" android:text="WHAT'S NEW"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:textSize="20dip"></TextView>
+			</LinearLayout>
+			<TextView android:textStyle="bold" android:textColor="#FFDDDDFF"
+				android:text="v 1.2.0" android:paddingBottom="3dip"
+				android:paddingTop="3dip" android:layout_height="wrap_content"
+				android:paddingLeft="10dip" android:layout_width="wrap_content"
+				android:paddingRight="10dip"></TextView>
+			<TextView android:textStyle="bold" android:textColor="#FFAA99FF"
+				android:text="* Game auto save on quit" android:paddingBottom="3dip"
+				android:paddingTop="3dip" android:layout_height="wrap_content"
+				android:paddingLeft="10dip" android:layout_width="wrap_content"
+				android:paddingRight="10dip"></TextView>
+			<TextView android:textStyle="bold" android:textColor="#FFAA99FF"
+				android:text="* Block shadow can be turned off in game option"
+				android:paddingBottom="3dip" android:paddingTop="3dip"
+				android:layout_height="wrap_content" android:paddingLeft="10dip"
+				android:layout_width="wrap_content" android:paddingRight="10dip"></TextView>
+			<TextView android:textStyle="bold" android:textColor="#FFAA99FF"
+				android:text="* fixed floating blocks after elimination, and score bonus for chained elimination"
+				android:paddingBottom="3dip" android:paddingTop="3dip"
+				android:layout_height="wrap_content" android:paddingLeft="10dip"
+				android:layout_width="wrap_content" android:paddingRight="10dip"></TextView>
+			<TextView android:textStyle="bold" android:textColor="#FFDDDDFF"
+				android:text="v 1.1.1" android:paddingBottom="3dip"
+				android:paddingTop="3dip" android:layout_height="wrap_content"
+				android:paddingLeft="10dip" android:layout_width="wrap_content"
+				android:paddingRight="10dip"></TextView>
+			<TextView android:textStyle="bold" android:textColor="#FFAA99FF"
+				android:text="* Hold button enabled" android:paddingBottom="3dip"
+				android:paddingTop="3dip" android:layout_height="wrap_content"
+				android:paddingLeft="10dip" android:layout_width="wrap_content"
+				android:paddingRight="10dip"></TextView>
+			<TextView android:textStyle="bold" android:textColor="#FFAA99FF"
+				android:text="* Block moves following finger" android:paddingBottom="3dip"
+				android:paddingTop="3dip" android:layout_height="wrap_content"
+				android:paddingLeft="10dip" android:layout_width="wrap_content"
+				android:paddingRight="10dip"></TextView>
+			<TextView android:textStyle="bold" android:textColor="#FFAA99FF"
+				android:text="* Control buttons become more intuitive and configurable"
+				android:paddingBottom="3dip" android:paddingTop="3dip"
+				android:layout_height="wrap_content" android:paddingLeft="10dip"
+				android:layout_width="wrap_content" android:paddingRight="10dip"></TextView>
+			<TextView android:textStyle="bold" android:padding="10dip"
+				android:textColor="#FFFFFF99" android:text="Hold Button Enabled"
+				android:gravity="right" android:layout_height="wrap_content"
+				android:layout_width="wrap_content"></TextView>
+			<ImageView android:layout_height="wrap_content"
+				android:scaleType="center" android:layout_width="fill_parent"
+				android:src="@drawable/help_hold_button"></ImageView>
+			<TextView android:textColor="#FFFFFFFF"
+				android:text="Player can hold the falling block and swap for another block if it is not wanted. if the HOLD AREA contains no block, first block in NEXT queue will be placed in playground, otherwise the block previously held by HOLD AREA will be used."
+				android:layout_height="wrap_content" android:paddingLeft="18dip"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:textColor="#FFFFFFFF"
+				android:text="To hold a block, just click the circle below text 'HOLD', or click hold button in landscape mode."
+				android:layout_height="wrap_content" android:paddingLeft="18dip"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:textStyle="bold" android:padding="10dip"
+				android:textColor="#FFFFFF99" android:text="Block moves following finger"
+				android:gravity="right" android:layout_height="wrap_content"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:textColor="#FFFFFFFF"
+				android:text="Blocks can ether move one slot per finger flip, or move continusly following your finger (seems like the block is dragged by your finger). "
+				android:layout_height="wrap_content" android:paddingLeft="18dip"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:textColor="#FFAA99FF"
+				android:text="These two options can be configured in game option: Control - Enable Drag Mode"
+				android:layout_height="wrap_content" android:paddingLeft="18dip"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:textStyle="bold" android:padding="10dip"
+				android:textColor="#FFFFFF99" android:text="Control Buttons"
+				android:gravity="right" android:layout_height="wrap_content"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:textColor="#FFFFFFFF"
+				android:text="Icons for control buttons is refined and become more intuitive, and button's allocation is highly customizable now:"
+				android:layout_height="wrap_content" android:paddingLeft="18dip"
+				android:layout_width="wrap_content"></TextView>
+			<ImageView android:layout_height="wrap_content"
+				android:scaleType="center" android:paddingBottom="5dip"
+				android:layout_width="fill_parent" android:src="@drawable/help_swap_button_1"></ImageView>
+			<ImageView android:layout_height="wrap_content"
+				android:scaleType="center" android:layout_width="fill_parent"
+				android:src="@drawable/help_swap_button_2"></ImageView>
+			<TextView android:textColor="#FFFFFFFF"
+				android:text="Above images just show the button custimization in landscape mode, customize it as you like."
+				android:layout_height="wrap_content" android:paddingLeft="18dip"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:textColor="#FFAA99FF"
+				android:text="These customizations can be performed in game option: Control in Landscape Mode"
+				android:layout_height="wrap_content" android:paddingLeft="18dip"
+				android:layout_width="wrap_content"></TextView>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:gravity="center_horizontal">
+				<ImageView android:layout_height="40dip"
+					android:layout_width="40dip" android:src="@drawable/arrow_down"></ImageView>
+				<ImageView android:layout_height="40dip"
+					android:layout_width="40dip" android:src="@drawable/arrow_direct_down"></ImageView>
+				<ImageView android:layout_height="40dip"
+					android:layout_width="40dip" android:src="@drawable/arrow_rotate"></ImageView>
+			</LinearLayout>
+			<TextView android:textColor="#FFFFFFFF"
+				android:text="Above images just show the button custimization for central button in portrait mode. The action can be ether QUICK DOWN, DIRECT DOWN, or BLOCK ROTATE."
+				android:layout_height="wrap_content" android:paddingLeft="18dip"
+				android:layout_width="wrap_content"></TextView>
+			<TextView android:textColor="#FFFFFFFF"
+				android:text="These customization can be performed in game option: Control in Portrait Mode"
+				android:layout_height="wrap_content" android:paddingLeft="18dip"
+				android:layout_width="wrap_content"></TextView>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

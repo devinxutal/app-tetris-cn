@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_vertical"
+	android:id="@+id/paused_screen" android:background="#CC222222">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center">
+		<TextView android:layout_height="wrap_content" android:id="@+id/paused_screen_title"
+			android:textColor="#FFFFDD66" android:text="@string/common_paused"
+			android:gravity="center_horizontal" android:layout_width="wrap_content"
+			android:textStyle="bold" android:textSize="32dip" android:padding="10dip"
+			android:shadowColor="#FF999999" android:shadowDx="1"
+			android:shadowDy="1" android:shadowRadius="0.2"></TextView>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:paddingTop="10dip">
+			<Button android:text="@string/common_resume" android:id="@+id/resume_button"
+				android:layout_width="230dip" android:layout_height="wrap_content"
+				android:textAppearance="@style/Button"></Button>
+			<Button android:text="@string/common_options" android:id="@+id/options_button"
+				android:layout_width="230dip" android:layout_height="wrap_content"
+				android:textAppearance="@style/Button"></Button>
+			<!-- 
+			<Button android:text="@string/common_tell_friends" android:id="@+id/heyzap_button_1"
+				android:layout_width="230dip" android:layout_height="wrap_content"
+				android:textAppearance="@style/Button"></Button>
+			 -->
+			<Button android:text="@string/common_quit_game" android:id="@+id/quit_button"
+				android:layout_width="230dip" android:layout_height="wrap_content"
+				android:textAppearance="@style/Button"></Button>
+
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal" android:id="@+id/ps_ad_area"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="bottom|center_horizontal"
+		android:paddingTop="10dip" />
+</LinearLayout>

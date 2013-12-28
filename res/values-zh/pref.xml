@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="pref_cat_basic">基本设置</string>
+	<string name="pref_cat_performance">性能设置</string>
+	<string name="pref_cat_appearence">表现设置</string>
+	<string name="pref_cat_portrait_control">竖屏设置</string>
+	<string name="pref_cat_landscape_control">横屏设置</string>
+	<string name="pref_cat_control">控制设置</string>
+
+
+	<string name="preferences_title">游戏设置</string>
+
+	
+	<string name="pref_ent_language">语言</string>
+	<string name="pref_ent_language_summary">选择游戏的显示语言</string>
+
+	
+	<string name="pref_ent_difficulty">开始级别</string>
+	<string name="pref_ent_difficulty_summary">选择游戏开始时的级别</string>
+	
+
+
+	<string name="pref_ent_background_music">背景音乐</string>
+	<string name="pref_ent_background_music_summary">
+	</string>
+
+	<string name="pref_ent_sound_effects">游戏音效</string>
+	<string name="pref_ent_sound_effects_summary">
+	</string>
+	
+	<string name="pref_ent_block_shadow">方块阴影</string>
+	<string name="pref_ent_block_shadow_summary">在方块将要落下的地方显示阴影 
+	</string>
+	
+	<string name="pref_ent_swap_rotate_hold">交换[保持]和[旋转]</string>
+	<string name="pref_ent_swap_rotate_hold_summary">交换[保持]按钮和[旋转]按钮的显示位置
+	</string>
+
+	<string name="pref_ent_swap_quick_direct">交换[快降]和[直降]</string>
+	<string name="pref_ent_swap_quick_direct_summary">交换[快降]按钮和[直降]按钮的现实位置
+	</string>
+	
+	<string name="pref_ent_enable_drag_mode">使用拖拽模式</string>
+	<string name="pref_ent_enable_drag_mode_summary">放在横向移动时跟随手指,而不是每次一格
+	</string>
+	
+	<string name="pref_ent_screen_orientation">屏幕方向</string>
+	<string name="pref_ent_screen_orientation_summary">设置游戏时的屏幕方向</string>
+	<string-array name="pref_ent_screen_orientation_entries">
+		<item>自动</item>
+		<item>竖屏</item>
+		<item>横屏</item>
+	</string-array>
+
+	<string name="pref_ent_block_style">方块样式</string>
+	<string name="pref_ent_block_style_summary">选择方块的显示样式</string>
+	<string-array name="pref_ent_block_style_entries">
+		<item>经典</item>
+		<item>水晶</item>
+	</string-array>
+
+	<string name="pref_ent_center_button_action">中央按钮的动作</string>
+	<string name="pref_ent_center_button_action_summary">选择中央按钮的动作</string>
+	<string-array name="pref_ent_center_button_action_entries">
+		<item>直接降落</item>
+		<item>快速降落</item>
+		<item>旋转方块</item>
+	</string-array>
+</resources>
